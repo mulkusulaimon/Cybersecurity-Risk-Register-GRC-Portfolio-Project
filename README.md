@@ -49,6 +49,31 @@ Each risk includes a structured statement describing its cause, potential event,
 The workbook also includes proposed ownership, status tracking, and fields for treatment evidence.
 
 The initial ratings are illustrative and require validation. In a real engagement, the assessment would use available evidence, agreed rating criteria, and the organisation’s approved risk assessment methodology.
+## Sample of the Cybersecurity Risk Register
+
+The following illustrates how cybersecurity risks can be identified, assessed and assigned treatment actions.
+
+| Risk ID | Identified Risk | Likelihood | Impact | Risk Rating | Proposed Treatment |
+|---|---|---|---|---|---|
+| R-001 | Weak employee passwords | High | High | High | Strengthen password controls and authentication |
+| R-002 | Former employee accounts remain active | Medium | High | High | Implement timely account deactivation |
+| R-003 | Excessive user permissions | Medium | Medium | Medium | Conduct periodic access reviews |
+| R-004 | Shared administrator accounts | High | High | High | Introduce individual privileged accounts |
+| R-005 | Backup recovery readiness not verified | Medium | High | High | Conduct and document restoration tests |
+| R-006 | Incomplete MFA coverage | High | High | High | Expand MFA enforcement |
+| R-007 | Insufficient monitoring of suspicious sign-ins | Medium | High | High | Improve security monitoring and alerting |
+| R-008 | Cloud storage sharing permissions too broad | Medium | High | High | Review and restrict sharing permissions |
+
+### What This Project Demonstrates
+
+- Cybersecurity risk identification.
+- Risk causes, events and consequences.
+- Qualitative likelihood and impact assessment.
+- Risk rating using an illustrative risk matrix.
+- Risk treatment recommendations.
+- Risk ownership and status tracking.
+
+**Full project:** See the Cybersecurity Risk Register Excel workbook in this repository.
 
 **Skills Demonstrated**
 
