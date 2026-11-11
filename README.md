@@ -64,6 +64,66 @@ The following illustrates how cybersecurity risks can be identified, assessed an
 | R-007 | Insufficient monitoring of suspicious sign-ins | Medium | High | High | Improve security monitoring and alerting |
 | R-008 | Cloud storage sharing permissions too broad | Medium | High | High | Review and restrict sharing permissions |
 
+## Risk Assessment Methodology
+
+This project uses a qualitative three-level risk assessment methodology to identify, evaluate and prioritise cybersecurity risks.
+
+### 1. Likelihood Scale
+
+| Rating | Definition |
+|---|---|
+| Low | The risk event is unlikely to occur under normal circumstances. |
+| Moderate | The risk event could occur under certain circumstances. |
+| High | The risk event is likely to occur or may occur repeatedly. |
+
+### 2. Impact Scale
+
+| Rating | Definition |
+|---|---|
+| Low | Minimal business disruption, financial impact or information exposure. |
+| Moderate | Noticeable business disruption, financial loss or exposure of internal information. |
+| High | Serious business disruption, significant financial loss, sensitive data exposure or legal consequences. |
+
+### 3. Risk Scoring Matrix
+
+The overall risk rating is determined by combining the likelihood and impact ratings.
+
+| Likelihood / Impact | Low | Moderate | High |
+|---|---|---|---|
+| Low | Low | Low | Moderate |
+| Moderate | Low | Moderate | High |
+| High | Moderate | High | High |
+
+### 4. Risk Classification
+
+| Risk Rating | Priority | General Response |
+|---|---|---|
+| Low | Routine | Maintain existing controls and monitor. |
+| Moderate | Medium | Identify appropriate treatment actions and monitor progress. |
+| High | High | Prioritise treatment and escalate to the appropriate risk owner. |
+
+### 5. Inherent Risk
+
+Inherent risk represents the level of risk before considering the effectiveness of existing security controls.
+
+### 6. Residual Risk
+
+Residual risk represents the level of risk remaining after treatment measures have been implemented and their effectiveness assessed.
+
+Residual risk must not be reduced simply because a control has been recommended. Evidence of implementation and effectiveness is required before reassessment.
+
+### 7. Risk Assessment Principles
+
+- Risk ratings are based on documented assumptions and available evidence.
+- Unknown control effectiveness must not be treated as confirmed protection.
+- Recommended treatments do not automatically reduce risk ratings.
+- Likelihood and impact must be reassessed after treatment.
+- Risk owners are responsible for reviewing and accepting residual risks.
+- Risk assessments should be reviewed periodically and when significant changes occur.
+
+### Disclaimer
+
+This methodology is used for fictional learning and portfolio projects. The ratings are illustrative and do not represent verified organisational risk assessments. Actual organisations should use their approved risk assessment criteria.
 ### What This Project Demonstrates
 
 - Cybersecurity risk identification.
