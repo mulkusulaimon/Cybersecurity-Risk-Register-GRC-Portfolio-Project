@@ -124,6 +124,28 @@ Residual risk must not be reduced simply because a control has been recommended.
 ### Disclaimer
 
 This methodology is used for fictional learning and portfolio projects. The ratings are illustrative and do not represent verified organisational risk assessments. Actual organisations should use their approved risk assessment criteria.
+
+## NIST Cybersecurity Framework 2.0 Mapping
+
+The cybersecurity risks documented in this project are mapped to relevant NIST CSF 2.0 subcategories.
+
+| Identified Risk | NIST CSF 2.0 Subcategory | Relevant Security Outcome |
+|---|---|---|
+| Weak employee passwords | PR.AA-03 | Users, services and hardware are authenticated. |
+| Former employee accounts remain active | PR.AA-01, PR.AA-05 | Identities and credentials are managed; access permissions are reviewed and revoked when no longer required. |
+| Excessive user permissions | PR.AA-05 | Access permissions are managed and reviewed using least privilege. |
+| Shared administrator accounts | PR.AA-01, PR.AA-05 | Identities and credentials are managed; access permissions follow least privilege. |
+| Backup recovery readiness not verified | PR.DS-11 | Backups of data are created, protected, maintained and tested. |
+| Incomplete MFA coverage | PR.AA-03 | Users, services and hardware are authenticated. |
+| Insufficient monitoring of suspicious sign-ins | DE.CM-03 | Personnel activity and technology usage are monitored to find potentially adverse events. |
+| Cloud storage sharing permissions too broad | PR.AA-05, PR.DS-01 | Access permissions are managed; data at rest is protected. |
+
+### Mapping Purpose
+
+The mapping connects identified cybersecurity risks to relevant NIST CSF 2.0 security outcomes. It supports the selection of appropriate risk treatment actions and helps organise security improvement activities.
+
+**Note:** A mapped subcategory does not mean a control has been implemented. Actual implementation and effectiveness require supporting evidence.
+
 ### What This Project Demonstrates
 
 - Cybersecurity risk identification.
